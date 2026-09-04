@@ -1,0 +1,9 @@
+{
+  "appId": "com.bluent.social",
+  "appName": "BLUENT",
+  "webDir": "www",
+  "android": {
+    "path": "android"
+  },
+  "plugins": {}
+}

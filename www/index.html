@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>BLUENT</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">BLUENT</div>
+  <button id="themeBtn">🌙</button>
+</header>
+
+<main>
+  <section class="hero">
+    <h1>Welcome to BLUENT</h1>
+    <p>Your simple and modern social app.</p>
+
+    <button class="primary" onclick="createPost()">
+      Create Post
+    </button>
+  </section>
+
+  <section id="feed">
+    <div class="post">
+      <h3>BLUENT</h3>
+      <p>Welcome to the BLUENT community! 🚀</p>
+      <button onclick="likePost(this)">❤️ <span>0</span></button>
+    </div>
+  </section>
+</main>
+
+<nav>
+  <button>🏠<small>Home</small></button>
+  <button onclick="createPost()">➕<small>Create</small></button>
+  <button>👤<small>Profile</small></button>
+</nav>
+
+<script src="script.js"></script>
+</body>
+</html>

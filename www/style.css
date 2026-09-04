@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  color: #111;
+  padding-bottom: 80px;
+  transition: 0.3s;
+}
+
+body.dark {
+  background: #0f0f0f;
+  color: #fff;
+}
+
+header {
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 18px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.dark header {
+  background: #181818;
+  border-color: #333;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+header button {
+  background: none;
+  border: 0;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+main {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.hero {
+  text-align: center;
+  padding: 45px 10px;
+}
+
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  opacity: 0.7;
+  margin-bottom: 25px;
+}
+
+.primary {
+  border: 0;
+  border-radius: 12px;
+  padding: 14px 22px;
+  background: #111;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dark .primary {
+  background: white;
+  color: black;
+}
+
+.post {
+  background: white;
+  padding: 18px;
+  border-radius: 16px;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 15px #00000010;
+}
+
+.dark .post {
+  background: #1b1b1b;
+}
+
+.post h3 {
+  margin-bottom: 10px;
+}
+
+.post p {
+  margin-bottom: 15px;
+}
+
+.post button {
+  border: 0;
+  background: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 65px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: white;
+  border-top: 1px solid #ddd;
+}
+
+.dark nav {
+  background: #181818;
+  border-color: #333;
+}
+
+nav button {
+  background: none;
+  border: 0;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+nav small {
+  display: block;
+  font-size: 11px;
+  margin-top: 3px;
+}
